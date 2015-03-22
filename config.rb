@@ -44,6 +44,27 @@ $icon_android_array = [
                { fname: "drawable-xhdpi/ic_launcher.png", size: 96 },
                { fname: "drawable-xxhdpi/ic_launcher.png", size: 144 },
                { fname: "drawable-xxxhdpi/ic_launcher.png", size: 192 },
-               { fname: "playstore-icon.png", size: 512 }
+               { fname: "playstore-icon.png", size: 512 },
+               { fname: "_128.png", size: 128 },
+               { fname: "_144.png", size: 144 },
+               { fname: "_16.png", size: 16 },
+               { fname: "_192.png", size: 192 },
+               { fname: "_24.png", size: 24 },
+               { fname: "_32.png", size: 32 },
+               { fname: "_36.png", size: 36 },
+               { fname: "_48.png", size: 48 },
+               { fname: "_64.png", size: 64 },
+               { fname: "_72.png", size: 72 },
+               { fname: "_96.png", size: 96 },
+               { fname: "_512.png", size: 512 }
+]
+
+$icon_windowsphone_array = [
+               { fname: "_24.png", size: 24 },
+               { fname: "_48.png", size: 48 },
+               { fname: "_110.png", size: 110 },
+               { fname: "_159.png", size: 159 },
+               { fname: "_202.png", size: 202 },
+               { fname: "_336.png", size: 336 }
 ]
 

@@ -55,4 +55,12 @@ $icon_android_array.each{|value|
   makeAppIcon(in_path, out_path, size)
 }
 
+# make Android App Icon
+$icon_windowsphone_array.each{|value|
+  fname = value[:fname]
+  size = value[:size]
+  out_path = "#{out_dir}/windowsphone/#{fname}"
+  makeAppIcon(in_path, out_path, size)
+}
+
 
