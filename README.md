@@ -1,15 +1,15 @@
 convertAppios/Icons
 ===============
 
-convert iOS-App ios/Icons and Android-App ios/Icons from 1024x1024 png.
+convert iOS-App Icons, Android-App Icons and WindowsPhone-App Icons from 1024x1024 png.
 
 input:<br>
 　1024x1024 png file.<br>
 
 output:<br>
-　iOS-App ios/Icons.<br>
-　Android-App ios/Icons.<br>	
-  WindowsPhone-App ios/Icons.<br>
+　iOS-App Icons.<br>
+　Android-App Icons.<br>	
+  WindowsPhone-App Icons.<br>
 
 requirements:<br>
 　ruby.<br>
@@ -18,12 +18,12 @@ requirements:<br>
 ## Usage
 
 ```
-Usage: convertAppios/Icons [options]
+Usage: convertAppIcons [options]
     -i input png-file. [1024x1024]
     -o output directory.
 
 command example:
-$ ./convertAppios/Icons -i sample_icon.png -o out
+$ ./convertAppIcons -i sample_icon.png -o out
 
 converted images:
 ##iOS
